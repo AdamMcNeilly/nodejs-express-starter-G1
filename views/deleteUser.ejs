@@ -1,6 +1,7 @@
 <!-- index.ejs -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,15 @@
     <link rel="icon" type="image/x-icon" href="./media/favicon.png">
     <link rel="stylesheet" href="viewdesign.css">
 </head>
+
 <body>
-    <h1>Delete User</h1>
+    <div class="kainosimage"></div>
+    <img src="./media/Kainos 800x250 Logo (Transparent BG).png" alt="kainos_logo">
+
+    <div>
+        <h1>Delete User</h1>
+    </div>
+
 
     <form action="/users/delete/<%= user.id %>" method="post">
         <h3>
@@ -17,6 +25,7 @@
         </h3>
 
         <input type="submit" value="Submit">
-    </form> 
+    </form>
 </body>
+
 </html>
