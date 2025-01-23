@@ -11,14 +11,14 @@
     <h1>User List</h1>
 
     <% if (users && users.length > 0) { %>
-        <table>
+        <table >
             <thead>
                 <tr>
                     <th>Name</th>
                     <th>Email</th>
                     <th>Role</th>
-                    <th></th>
-                    <th></th>
+                    <th>Salary</th>
+                    <th>Employee number</th>
                     <th></th>
                 </tr>
             </thead>
@@ -28,6 +28,8 @@
                         <td><%= user.name %></td>
                         <td><%= user.email %></td>
                         <td><%= user.role %></td>
+                        <td><%= user.salary %></td>
+                        <td><%= user.id %></td>
                         <td><a href="/users/<%= user.id %>">View</a></td>
                         <td><a href="/users/update/<%= user.id %>">Edit</a></td>
                         <td><a href="/users/delete/<%= user.id %>">Delete</a></td>
