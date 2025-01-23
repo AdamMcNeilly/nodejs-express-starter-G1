@@ -13,15 +13,24 @@
 <body>
 
     <div class="adduserpage">
-        <img src="./media/Kainos 800x250 Logo (Transparent BG).png" alt="kainos_logo">
+        <div class="logoimage">
+            <img src="./media/Kainos 800x250 Logo (Transparent BG).png" alt="kainos_logo">
+        </div>
+
+
+        <nav>
+            <a href="addUser.ejs">Add Users</a>
+            <a href="deleteUser.ejs">Delete Users</a>
+            <a href="updateUser.ejs">Update Users</a>
+        </nav>
 
         <div class="addnewuser">
             <h1>Add New User</h1>
         </div>
 
-
         <div class="infoboxes">
-            <form action="/users/add" method="post">
+
+            <form action="addUser.js" method="post">
                 <label for="name">Name:</label><br>
                 <input type="name" id="name" name="name"><br>
 
@@ -38,10 +47,10 @@
                 <input type="employeenumber" id="employeenumber" name="employeenumber"><br>
 
                 <div class="spacebelowinfo">
-                    
+
                 </div>
 
-                <input type="submit" value="Submit">
+                <input type="submit" value="submit" />
             </form>
         </div>
 
