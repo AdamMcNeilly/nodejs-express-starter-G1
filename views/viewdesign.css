@@ -12,7 +12,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
   }
 
   .addnewuser {
