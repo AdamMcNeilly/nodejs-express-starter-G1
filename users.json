@@ -4,9 +4,37 @@
     "name": "Shaun",
     "email": "shaun@test.com",
     "role": "Software Engineer",
-    "salary": 4
-  
+    "salary": "40,000"
+    
+  },
+  {
+    "id": 2,
+    "name": "Mia",
+    "email": "mia@test.com",
+    "role": "Product Manager",
+    "salary": "50,000"
+  },
+  {
+    "id": 3,
+    "name": "Liam",
+    "email": "liam@test.com",
+    "role": "Data Scientist",
+    "salary": "45,000"
+  },
+  {
+    "id": 4,
+    "name": "Emma",
+    "email": "emma@test.com",
+    "role": "UX Designer",
+    "salary": "42,000"
+  },
+  {
+    "id": 5,
+    "name": "Noah",
+    "email": "noah@test.com",
+    "role": "DevOps Engineer",
+    "salary": "48,000"
   }
-
-
 ]
+
+
