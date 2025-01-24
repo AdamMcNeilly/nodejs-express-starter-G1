@@ -3,28 +3,38 @@
     "id": 1,
     "name": "Shaun",
     "email": "shaun@test.com",
-    "role": "Software Engineer"
+    "role": "Software Engineer",
+    "salary": "40,000"
+    
   },
   {
-    "name": "James",
-    "email": "kqhkdhwjhw@fhwh.com",
-    "role": "Employee",
-    "id": 2
+    "id": 2,
+    "name": "Mia",
+    "email": "mia@test.com",
+    "role": "Product Manager",
+    "salary": "50,000"
   },
   {
-    "name": "James Clulow",
-    "address": "14 Malone Road",
-    "salary": "100000",
-    "role": "Senior Software Engineer",
-    "employeenumber": "123456",
-    "id": 3
+    "id": 3,
+    "name": "Liam",
+    "email": "liam@test.com",
+    "role": "Data Scientist",
+    "salary": "45,000"
   },
   {
-    "name": "James",
-    "address": "14 Malone Road",
-    "salary": "100000",
-    "role": "Senior Software Engineer",
-    "employeenumber": "123456",
-    "id": 4
+    "id": 4,
+    "name": "Emma",
+    "email": "emma@test.com",
+    "role": "UX Designer",
+    "salary": "42,000"
+  },
+  {
+    "id": 5,
+    "name": "Noah",
+    "email": "noah@test.com",
+    "role": "DevOps Engineer",
+    "salary": "48,000"
   }
 ]
+
+
