@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add New User</title>
+    <link rel="icon" type="image/x-icon" href="./media/favicon.png">
     <link rel="stylesheet" href="viewDesign.css">
 </head>
 
@@ -38,9 +39,19 @@
                 <label for="salary">Salary:</label><br>
                 <input type="number" id="salary" name="salary"><br>
 
-                <label for="role">Role:</label><br>
-                <input type="text" id="role" name="role"><br>
-
+                <div class="roledropdown">
+                     <label for="role">Role:</label><br>
+                <!-- <input type="text" id="role" name="role"><br> -->
+                <select id="text" class="input col-lg-12">
+                    <option hidden value="">Select one</option>
+                    <option value="SE">Software Engineer</option>
+                    <option value="TE">Test Engineer</option>
+                    <option value="QA">Quality Assurance</option>
+                    <option value="RD">Research and Development</option>
+                    <option value="MA">Marketing</option>
+                </select>
+                </div>
+               
                 <label for="employeenumber">Employee Number:</label><br>
                 <input type="number" id="employeenumber" name="employeenumber"><br>
 
