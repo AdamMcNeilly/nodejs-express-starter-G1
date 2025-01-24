@@ -1,0 +1,67 @@
+.adduserpage {
+    width: 100%;
+  }
+  
+  body {
+      background-image: url("https://media.istockphoto.com/id/1390799493/vector/turquoise-gradation-background.jpg?s=612x612&w=0&k=20&c=7CgX9ySU7SkuZ-idIZh3xNuvYqokFuJCA3i7hN7rmVY=");
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      background-repeat: no-repeat;
+      background-size: 2000px 2000px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .infoboxes {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 25px;
+    }
+  
+    .addnewuser {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    .spacebelowinfo {
+      margin-bottom: 25px;
+    }
+  
+    nav a {
+      display: flex;
+      color: black;
+      text-decoration: none;
+      padding-bottom: 15px;
+      width: 200px;
+      padding-left: 100px;
+    }
+  
+    a :hover {
+      color: blue;
+    }
+  
+    nav {
+      width: auto;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .logoimage {
+      margin-left: 370px;
+    }
+  
+    footer {
+      font-size: small;
+      display: flex;
+      justify-content: center;
+      background-color: #1e1342;
+      color: white;
+      width: 100%;
+    }
+  
+    footer p {
+      margin-left: 20px;
+      margin-right: 20px;
+    }

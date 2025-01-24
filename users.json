@@ -4,5 +4,27 @@
     "name": "Shaun",
     "email": "shaun@test.com",
     "role": "Software Engineer"
+  },
+  {
+    "name": "James",
+    "email": "kqhkdhwjhw@fhwh.com",
+    "role": "Employee",
+    "id": 2
+  },
+  {
+    "name": "James Clulow",
+    "address": "14 Malone Road",
+    "salary": "100000",
+    "role": "Senior Software Engineer",
+    "employeenumber": "123456",
+    "id": 3
+  },
+  {
+    "name": "James",
+    "address": "14 Malone Road",
+    "salary": "100000",
+    "role": "Senior Software Engineer",
+    "employeenumber": "123456",
+    "id": 4
   }
 ]

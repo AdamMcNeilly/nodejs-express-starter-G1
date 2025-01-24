@@ -1,26 +1,64 @@
 <!-- index.ejs -->
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add New User</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="viewDesign.css">
 </head>
+
 <body>
-    <h1>Add New User</h1>
 
-    <form action="/users/add" method="post">
-        <label for="name">Name:</label><br>
-        <input type="name" id="name" name="name"><br>
+    <div class="adduserpage">
+        <div class="logoimage">
+            <img src="./media/Kainos 800x250 Logo (Transparent BG).png" alt="kainos_logo">
+        </div>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email"><br>
 
-        <label for="role">Role:</label><br>
-        <input type="role" id="role" name="role"><br>
+        <nav>
+            <a href="addUser.ejs">Add Users</a>
+            <a href="deleteUser.ejs">Delete Users</a>
+            <a href="updateUser.ejs">Update Users</a>
+        </nav>
 
-        <input type="submit" value="Submit">
-    </form> 
+        <div class="addnewuser">
+            <h1>Add New User</h1>
+        </div>
+
+        <div class="infoboxes">
+            <form action="/users/add" method="post">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name"><br>
+
+                <label for="address">Address:</label><br>
+                <input type="text" id="address" name="address"><br>
+
+                <label for="salary">Salary:</label><br>
+                <input type="number" id="salary" name="salary"><br>
+
+                <label for="role">Role:</label><br>
+                <input type="text" id="role" name="role"><br>
+
+                <label for="employeenumber">Employee Number:</label><br>
+                <input type="number" id="employeenumber" name="employeenumber"><br>
+
+                <div class="spacebelowinfo">
+                </div>
+
+                <input type="submit" value="Submit">
+            </form>
+
+            <script>src = "readWriteUser.js"</script>
+        </div>
+
+        <footer>
+            <p>Kainos House 4-6 Upper Crescent Belfast BT7 1NT Nothern Ireland</p>
+            <p>investorrelations@kainos.com</p>
+        </footer>
+
+    </div>
 </body>
+
 </html>

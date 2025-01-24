@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Delete User</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="viewdesign.css">
 </head>
 <body>
     <h1>Delete User</h1>
 
-    <form action="/users/delete/<%= user.id %>" method="post">
+    <form action="/users/delete" method="post">
         <h3>
             Are you sure you want to delete <%= user.name %>?
         </h3>
