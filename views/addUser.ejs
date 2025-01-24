@@ -30,21 +30,21 @@
 
         <div class="infoboxes">
 
-            <form action="addUser.js" method="post">
+            <form id="dataForm" action="/users/add" method="post">
                 <label for="name">Name:</label><br>
-                <input type="name" id="name" name="name"><br>
+                <input type="text" id="name" name="name" required><br>
 
                 <label for="address">Address:</label><br>
-                <input type="address" id="address" name="address"><br>
+                <input type="text" id="address" name="address" required><br>
 
                 <label for="salary">Salary:</label><br>
-                <input type="salary" id="salary" name="salary"><br>
+                <input type="number" id="salary" name="salary" required><br>
 
                 <label for="role">Role:</label><br>
-                <input type="role" id="role" name="role"><br>
+                <input type="text" id="role" name="role" required><br>
 
                 <label for="employeenumber">Employee Number:</label><br>
-                <input type="employeenumber" id="employeenumber" name="employeenumber"><br>
+                <input type="number" id="employeenumber" name="employeenumber" required><br>
 
                 <div class="spacebelowinfo">
 
@@ -52,6 +52,10 @@
 
                 <input type="submit" value="submit" />
             </form>
+
+            <script>
+           src="addUser.js"
+            </script>
         </div>
 
         <footer>

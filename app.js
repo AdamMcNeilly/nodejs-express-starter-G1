@@ -40,3 +40,16 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+// // chatgpt code for css visualisation of ejs files
+// const express = require('express');
+// const app = express();
+
+// // Serve static files from the "public" directory
+// app.use(express.static('public'));
+
+// // ...existing code...
+
+// app.listen(3000, () => {
+//   console.log('Server is running on http://localhost:3000');
+// });
