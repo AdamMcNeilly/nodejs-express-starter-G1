@@ -5,7 +5,6 @@
     "email": "shaun@test.com",
     "role": "Software Engineer",
     "salary": "40,000"
-    
   },
   {
     "id": 2,
@@ -34,7 +33,28 @@
     "email": "noah@test.com",
     "role": "DevOps Engineer",
     "salary": "48,000"
+  },
+  {
+    "name": "John Doe",
+    "address": "14 Malone Road",
+    "salary": "46000",
+    "role": "Employee",
+    "employeenumber": "46582",
+    "id": 6
+  },
+  {
+    "name": "Dave Smith",
+    "address": "24 Street Street",
+    "salary": "39000",
+    "role": "",
+    "employeenumber": "1234567",
+    "id": 7
+  },
+  {
+    "name": "James Clulow",
+    "address": "14 Malone Road",
+    "salary": "100000",
+    "employeenumber": "678786",
+    "id": 8
   }
 ]
-
-
